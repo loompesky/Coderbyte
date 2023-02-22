@@ -1,0 +1,793 @@
+
+Q1.	The CLR is physically represented by an assembly named _______
+ A. 	mscor.dll
+ B. 	msoree.dll
+ C. 	mcoree.dll
+ D. 	mscoree.dll Ans
+CLR is the .NET equivalent of _________.
+A.Java Virtual Machine
+B. Common Language Runtime
+C. Common Type System
+D.Common Language Specification
+View Answer
+Ans: Java Virtual Machine
+SOAP stands for __________.
+A.Simple Object Access Program
+B. Simple Object Access Protocol
+C. Simple Object Application Protocol
+D.Simple Object Account Protocol
+View Answer
+Ans: Simple Object Access Protocol
+4 .
+The ____ language allows more than one method in a single class
+A.C#
+B. J#
+C. C++
+D.C
+View Answer
+Ans: C#
+In C#, a subroutine is called a ________.
+A.Function
+B. Metadata
+C. Method
+D.Managed code
+View Answer
+Ans: Method
+All C# applications begin execution by calling the _____ method.
+A.Class()
+B. Main()
+C. Submain()
+D.Namespace
+View Answer
+Ans: Main()
+A _______ is an identifier that denotes a storage location
+A.Constant
+B. Reference type
+C. Variable
+D.Object
+View Answer
+Ans: Variable
+_________ are reserved, and cannot be used as identifiers.
+A.Keywords
+B. literal
+C. variables
+D.Identifiers
+View Answer
+Ans: Keywords
+Boxing converts a value type on the stack to an ______ on the heap.
+A.Bool type
+B. Instance type
+C. Class type
+D.Object type
+View Answer
+Ans: Object type
+10 .
+The character pair ?: is a________________available in C#.
+A.Unary operator
+B. Ternary operator
+C. Decision operator
+D.Functional operator
+View Answer
+Ans: Ternary operator
+11 .
+In C#, all binary operators are ______.
+A.Center-associative
+B. Right-associative
+C. Left-associative
+D.Top-associative
+View Answer
+Ans: Left-associative
+12 .
+An _______ is a symbol that tells the computer to perform certain mathematical or logical manipulations.
+A.Operator
+B. Expression
+C. Condition
+D.Logic
+View Answer
+Ans: Operator
+A _____ is any valid C# variable ending with a colon.
+A.goto
+B. Label
+C. Logical
+D.Bitwise
+View Answer
+Ans: Label
+
+14 .
+C# has _______ operator, useful for making two way decisions.
+A.Looping
+B. Functional
+C. Exponential
+D.Conditional
+View Answer
+Ans: Conditional
+
+15 .
+________causes the loop to continue with the next iteration after skipping any statements in between.
+A.Loop
+B. Exit
+C. Break
+D.Continue
+View Answer
+Ans: Continue
+
+16 .
+An ____ is a group of contiguous or related data items that share a common name.
+A.Operator
+B. Integer
+C. Exponential
+D.Array
+View Answer
+Ans: Array
+17 .
+Arrays in C# are ______ objects
+A.Reference
+B. Logical
+C. Value
+D.Arithmetic
+View Answer
+Ans: Reference
+
+18 .
+Multidimensional arrays are sometimes called _______ Arrays.
+A.Square
+B. Triangular
+C. Rectangular
+D.Cube
+View Answer
+Ans: Rectangular
+19 .
+______ parameters are used to pass results back to the calling method.
+A.Input
+B. Reference
+C. Value
+D.Output
+View Answer
+Ans: Output
+20 .
+The formal-parameter-list is always enclosed in _______.
+A.Square
+B. Semicolon
+C. Parenthesis
+D.Colon
+View Answer
+Ans: Parenthesis
+21 .
+_______ variables are visible only in the block they are declared.
+A.System
+B. Global
+C. Local
+D.Console
+View Answer
+Ans: Local
+22 .
+C# does not support _____ constructors.
+A.parameterized
+B. parameter-less
+C. Class
+D.Method
+View Answer
+Ans: parameter-less
+23 .
+A structure in C# provides a unique way of packing together data of ______ types.
+A.Different
+B. Same
+C. Invoking
+D.Calling
+View Answer
+Ans: Different
+24 .
+Struct's data members are ____________ by default.
+A.Protected
+B. Public
+C. Private
+D.Default
+View Answer
+Ans: Private
+25 .
+A _______ creates an object by copying variables from another object.
+A.Copy constructor
+B. Default constructor
+C. Invoking constructor
+D.Calling constructor
+View Answer
+Ans: Copy constructor
+26 .
+Which of the following is a reserved keyword in C#?
+A.abstract
+B. as
+C. foreach
+D.All of the above
+View Answer
+Ans: All of the above
+
+27 .
+Which of the following is a contextual keyword in C#?
+A.get
+B. set
+C. add
+D.All of the above
+View Answer
+Ans: All of the above
+28 .
+Which of the following converts a type to a Boolean value, where possible in C#?
+A.ToBoolean
+B. ToSingle
+C. ToChar
+D.ToDateTime
+View Answer
+Ans: ToBoolean
+
+29 .
+Which of the following variable types can be assigned a value directly in C#?
+A.Value types
+B. Reference types
+C. Pointer types
+D.All of the above
+View Answer
+Ans: Value types
+30 .
+Which of the following is correct about dynamic Type in C#?
+A.You can store any type of value in the dynamic data type variable.
+B. Type checking for these types of variables takes place at run-time.
+C. Both of the above
+D.None of the above
+View Answer
+Ans: Both of the above
+
+31 .
+What Will Be The Output Of The Following Code : using System; public class Program { public static void Main(string[] args) { Console.WriteLine(Math.Round(6.5)); Console.WriteLine(Math.Round(11.5)); } }
+A.6 12
+B. 6 11
+C. 6 10
+D.6 15
+View Answer
+Ans: 6 12
+32 .
+What Will Be The Output Of The Following Code: using System; public class Program { public static void Main(string[] args) { int[] i = new int[0]; Console.WriteLine(i[0]); } }
+A.0
+B. 1
+C. IndexOutOfRangeException
+D.Nothing is printed as array is empty
+View Answer
+Ans: IndexOutOfRangeException
+
+33 .
+What Will Be The Output Of The Following Code Snippet:
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            byte num = 100;
+            dynamic val = num;
+            Console.WriteLine(val.GetType());
+            val += 100;
+            Console.WriteLine(val.GetType());
+        }
+    }
+
+A.Error
+B. System.Byte System.Byte
+C. System.Byte System.Int32
+D.System.Int32 System.Int32
+View Answer
+Ans: System.Byte System.Int32
+
+34 .
+What Will Be The Output Of The Following Code Snippet:
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+        #if (!pi)
+                    Console.WriteLine("i");
+        #else 
+                    Console.WriteLine("PI undefined");
+        #endif
+            Console.WriteLine("ok");
+            Console.ReadLine();
+        }
+    }
+
+A.ok
+B. i ok
+C. PI undefined ok
+D.Error
+View Answer
+Ans: i ok
+
+35 .
+What Will Be The Output Of The Following Code Snippet:
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+        #if (!pi)
+                    Console.WriteLine("i");
+        #else 
+                    Console.WriteLine("PI undefined");
+        #endif
+            Console.WriteLine("ok");
+            Console.ReadLine();
+        }
+    }
+
+A.10 10
+B. 10 100
+C. 10 1000
+D.10 1
+View Answer
+Ans: 10 1000
+
+36 .
+What Will Be The Output Of The Following Code:
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            String a = "TechBeamers";
+            String b = "TECHBEAMERS";
+            int c;
+            c = a.CompareTo(b);
+            Console.WriteLine(c);
+        }
+     }
+
+A.-1
+B. 1
+C. 0
+D.Error
+View Answer
+Ans: -1
+
+37 .
+What Will Be The Output Of The Following Code:
+using System;
+public class Program
+    {
+       static void arrayMethod(int[] a)
+    {
+        int[] b = new int[5];
+        a = b;
+    }
+        public static void Main(string[] args)
+        {
+            int[] arr = new int[10];
+            arrayMethod(arr);
+            Console.WriteLine(arr.Length);
+        }
+    }
+
+A.5
+B. 10
+C. 15
+D.20
+View Answer
+Ans: 10
+
+38 .
+What Will Be The Output Of The Following Code:
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Program p = new Program();
+            p.print(2, 3, 8);
+            int[] arr = { 2, 11, 15, 20 };
+            p.print(arr);
+            Console.ReadLine();
+        }
+        public void print(params int[] b)
+        {
+            foreach (int i in b)
+            {
+                Console.WriteLine(i);
+            }
+        }
+    }
+
+A.2 3 8 2 11 15 20
+B. 2 3 8 11 15 20
+C. 2 11 15 20
+D.Error
+View Answer
+Ans: 2 3 8 2 11 15 20
+
+
+39 .
+What Will Be The Output Of The Following Code:
+using System;
+public class Program
+    {      
+      public static void Main(string[] args)
+        {
+          char x = 'A';
+           int i = 0;
+          Console.WriteLine (true  ? x : 0);
+          Console.WriteLine(false ? i : x); 
+        }
+    }
+
+A.65 65
+B. true false
+C. 1 0
+D.Error
+View Answer
+Ans: 65 65
+
+
+40 .
+What Will Be The Output Of The Following Code:
+using System;
+public class Program
+    {
+ 
+        public static void Main(string[] args)
+        {
+            int num1 = 20;
+            int num2 = 30;
+            num1 ^= num2 ^= num1 ^= num2;
+            Console.WriteLine(num1 + ","+ num2);
+        }
+    }
+
+A.0,20
+B. 10,30
+C. 20,30
+D.0,30
+View Answer
+Ans: 0,20
+
+41 .
+What Will Be The Output Of The Following Code:
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            char[] num = { '1', '2', '3' };
+            Console.WriteLine(" char array: " + num);
+        }
+ 
+    }
+
+A.char array: {123}
+B. char array: [123]
+C. char array: System.Char[]
+D.char array: 123
+View Answer
+Ans: char array: System.Char[]
+42 .
+What Will Be The Output Of The Following Code:
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Program obj = null;
+            Console.WriteLine(Program.print());
+        }
+        private static String print()
+        {
+            return "Hi, I am a Tech-savvy!!";
+        }
+    }
+
+A.Hi, I am a Tech-savvy!!
+B. The program compiled successfully and nothing is printed
+C. Error
+D.None of the above
+View Answer
+Ans: Hi, I am a Tech-savvy!!
+43 .
+What Will Be The Output Of The Following Code:
+using System;
+using System.Collections.Generic;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            string[] strings = { "abc", "def", "ghi" };
+            var actions = new List();
+            foreach (string str in strings)
+              actions.Add(() => { Console.WriteLine(str); });
+
+            foreach (var action in actions)
+              action();
+        }
+    }
+
+A.abc def ghi
+B. ghi ghi ghi
+C. abc abc abc
+D.Error
+View Answer
+Ans: abc def ghi
+44 .
+What Will Be The Output Of The Following Code:
+using System;
+using System.Collections.Generic;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var actions = new List();
+            for (int i = 0; i < 4; i++) actions.Add(() => Console.WriteLine(i));
+            foreach (var action in actions)
+                action();
+        }
+    }
+
+A.0 1 2 3
+B. 1 2 3 4
+C. 4 4 4 4
+D.Error
+View Answer
+Ans: 4 4 4 4
+
+45 .
+What Will Be The Output Of The Following Code:
+using System;
+using System.Collections.Generic;
+namespace TechBeamers
+{
+    delegate string del(string str);
+    class sample
+    {
+        public static string DelegateSample(string a)
+        {
+            return a.Replace(',', '*');
+        }
+    }
+    public class InterviewProgram
+    {
+        public static void Main(string[] args)
+        {
+            del str1 = new del(sample.DelegateSample);
+            string str = str1("Welcome,,friends,,to,,TechBeamers");
+            Console.WriteLine(str);
+        }
+    }
+}
+
+A.Welcome,friends,to,TechBeamers
+B. Welcome**friends**to**TechBeamers
+C. Welcome*friends*to*TechBeamers
+D.Welcome friends to TechBeamers
+View Answer
+Ans: Welcome**friends**to**TechBeamers
+
+
+46 .
+What Will Be The Output Of The Following Code:
+using System;
+using System.Collections.Generic;
+namespace TechBeamers
+{
+    public delegate void sampleDelegate(int num);
+    public class testDelegate 
+    {
+     public void checkEven(int num) 
+     {
+      if(num%2 ==0) 
+        Console.WriteLine("This number is an even number");
+       else
+        Console.WriteLine("This number is an odd number");
+      }
+
+      public void squareNumber(int num) 
+      {
+        Console.WriteLine("Square of this number is: {0}", num*num); 
+      }
+    }
+
+    class sample 
+    {
+       public static void Main( ) 
+       {
+         testDelegate obj = new testDelegate();
+         sampleDelegate delegateObj = new sampleDelegate(obj.checkEven);
+         delegateObj += new sampleDelegate(obj.squareNumber);
+         delegateObj(25);
+        }
+    }
+}
+
+A.Error
+B. This number is an odd number
+C. Square of this number is: 625
+D.This number is an odd number Square of this number is: 625
+View Answer
+Ans: This number is an odd number Square of this number is: 625
+
+
+47 .
+What Will Be The Output Of The Following Code:
+using System;
+using System.Collections.ObjectModel;
+using System.Collections.Generic;
+public class Program
+    {
+        public static void Main()
+        {
+            var arr = new List { 20, 40, 35, 85, 70 };
+            var collection = new Collection(arr);
+            arr.Add(60);
+            arr.Sort();
+            Console.WriteLine(String.Join(",", collection));
+        }
+    }
+
+A.20, 40, 35, 85, 70
+B. 20, 40, 35, 85, 70, 60
+C. 20, 35, 40, 60, 70, 85
+D.20, 35, 40, 60, 70
+View Answer
+Ans: 20, 35, 40, 60, 70, 85
+48 .
+What Will Be The Output Of The Following Code:
+using System;
+public class Program
+    {
+        public static  void Main()
+        {
+            Nullable number = 0;
+            int num = 1;
+            Console.WriteLine(number.GetType() == num.GetType());
+        }
+    }
+
+A.True
+B. False
+C. Null
+D.Error
+View Answer
+Ans: False
+
+49 .
+What Will Be The Output Of The Following Code:
+using System;
+using System.Collections.ObjectModel;
+using System.Collections.Generic;
+namespace TechBeamers
+{
+    delegate void A(ref string str);
+    public class sample
+    {
+        public static void StringMarker(ref string a)
+        {
+            a = a.Substring(0, a.Length - 6);
+        }
+    }
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            A str1;
+            string str = "Let's Learn CSharp";
+            str1 = sample.StringMarker;
+            str1(ref str);
+            Console.WriteLine(str);
+        }
+    }
+}
+
+A.Learn CSharp
+B. Let's Learn
+C. Let's Learn CSharp
+D.Null
+View Answer
+Ans: Let's Learn
+
+
+
+50 .
+What Will Be The Output Of The Following Code:
+using System;
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            bool a = true;
+            bool b = false;
+            a ^= b;
+            Console.WriteLine(a);
+            Console.ReadLine();
+        }
+    }
+
+A.True
+B. False
+C. Null
+D.Error
+View Answer
+Ans: True
+
+
+------------------------------------------
+
+
+Q1.	The theory of _____ implies that user can control the access to a class, method, or variable.
+ A. 	Data hiding
+ B. 	Information Hiding
+ C. 	Polymorphism
+ D. 	Encapsulation Answer
+
+
+Q1.	The ______ are the Graphical User Interface (GUI) components created for web based interactions.
+ A. 	Web forms
+ B. 	Window Forms
+ C. 	Application Forms
+ D. 	None of the above
+ View Answer   up 3 Down -2
+Explanation:-
+Answer : B
+Q1.	_______ methods are not supported for dynamic types.
+ A. 	Anonymous
+ B. 	Static
+ C. 	Abstract
+ D. 	Extension
+ View Answer   up 5 Down -2
+Explanation:-
+Answer : D
+Q1.	C# does not support:
+ A. 	abstraction
+ B. 	polymorphism
+ C. 	multiple inheritance
+ D. 	inheritance
+ View Answer   up 3 Down -3
+Explanation:-
+Answer : C
+
+Q1.	Different ways a method can be overloaded in C#.NET
+ A. 	Different parameter data types
+ B. 	Different order of parameters
+ C. 	Different number of parameters
+ D. 	All of above
+ View Answer   up 3 Down -4
+Explanation:-
+Answer : D
+
+
+
+Q1.	A Constructor
+ A. 	is used to create objects
+ B. 	must have the same name as the class it is declared within
+ C. 	is a method of a class
+ D. 	all of these
+ View Answer   up 1 Down -2
+Explanation:-
+Answer : D
+
+
+Q1.	What is the proper header for a class that intends to use an interface.
+ A. 	class MyClass IFace
+ B. 	class MyClass ; IFace
+ C. 	class MyClass : IFace
+ D. 	class MyCalss {IFace}
+ View Answer   up 4 Down -1
+Explanation:-
+Answer : C
+
+Q1.	Exception objects are derived from the class.
+ A. 	Try
+ B. 	Catch
+ C. 	Exception
+ D. 	Event
+ View Answer   up 2 Down -2
+Explanation:-
+Answer : C
+
+Q1.	Which of the following are value types?
+ A. 	Integer
+ B. 	Array
+ C. 	Single
+ D. 	All of these
+ View Answer   up 1 Down -6
+Explanation:-
+Answer : D
